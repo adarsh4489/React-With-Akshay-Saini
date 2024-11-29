@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Through HTML</title>
+    <style>
+        #root{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"> <!-- id instead of class -->
+         <!-- if we give class instead of id then this method will give error because when we give it class then we may give multiple classes the same name so appendChild returns array of objects so for classes you have to mention which element i.e getElementByClassName("root")[0] in this case 
+        
+        And 
+
+        when we use id instead of class then  we have a uniqe id so we can run the below command an it will not give any error
+        -->
+    </div>
+    <script>
+        const heading=document.createElement('h1');
+        heading.innerHTML="Hi My name is Adarsh, I am learning react from Akshay Saini";
+        const target=document.getElementById("root");
+        target.appendChild(heading);
+    </script>
+    
+</body>
+</html>
