@@ -32,9 +32,11 @@
 -->crossorigin check that weather the request is safe or not like we are sharing data and if its not safe 
 
 -->crossorigin="anonymous"    doesnot send cockies and all,
+
 -->crossorigin="use-credentials"  sends credentials
 
 # React.createElement("what type of element you want to create eg:h1 ,h2 p etc ",{ attributes},"what to write inside that tag ")
+
 --> for example:   React.createElement("h1","id:"main-heading","Hi this is my main heading");
 
 
@@ -61,32 +63,44 @@
  # Git: 
 
    --> Git is a version control system
+
    --> git works locally on your computer ,using git you can manage your code and also you can work with peoples on a single project while sitting in different locations.
 
   # git commands
 
    --> intialize git repository:                               git init
+
    --> view commit history:                                    git log
+   
    --> saves changes with a message:                           git commit -m "i fixed this bug"
    
    -->create a new branch with branch name adrash:             git branch adarsh
+   
    -->gives all the branches in repository                     git branch 
+   
    -->delete a branch whose name is adarsh                     git branch -d adarsh 
+   
    -->createa branch (aman) and jump to that branch            git branch -d adarsh 
+   
    -->change the current repo to newbranch (aman)              git checkout aman
    
    --> for cloning a project                                   git clone (link of your project brackets not required)
+   
    --> to check status of your working directory               git status
    
    -->to add a single file in current directory                git add file_name
+   
    -->to add all the modified files in current directory       git add .
+   
    -->Modify the last commit (useful if                        git commit --ammend 
     you forgot to add a file or made a mistake).
 
    -->only fetches changes but dont merge                      git fetch origin
 
    -->push changes to a specific branch                        git push origin branch-name
+   
    -->push all branches to remote                              git push origin --all
+   
    -->pull changes from the remote                             git pull origin branch_name
 
    -->merge branch aman to main branch                         git merge aman
@@ -95,17 +109,23 @@
  # Github:
 
     -->A platform for hosting and sharing git repositories, 
+   
     -->Github is a cloud based service that allows us to store,share and colaborate projects
+   
     -->it allows us to access our projects remotely form any device 
+   
     -->using github we can interact with different people globaly working on a project
 
 #  ######### ----------------- Parcel --------------##############
 
 --> parcel is a web application bundler
+
 --> npm install -D parcel  (for development phase)
+
 --> npx parcel index.html (starting point of the application)
 
    -->npm is used for downloading packages
+
    -->npx is used for executing packages
 
 # what Parcel does
