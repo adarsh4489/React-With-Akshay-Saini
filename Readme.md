@@ -130,5 +130,30 @@
 
 # what Parcel does
 --------------------
+-->Bundling
 
--->
+-->Hot reloading: no need to refresh the page
+
+-->fast due to caching
+
+--> automatic  production optimization :removes all the unneceesary code which is not required it increases the speed and also free memory
+(this is done by shaking tree algorithm)
+
+--> image optimization
+
+--> Transpilation
+
+ # Transpilation V/S compilation
+ --> compilation means converting high level code written in c++,java or any other programing language into machine language
+
+ --> While on the other hand transpilation means transforming a code written in one language to another language  
+ eg: a code written in c++ is tranformed in java the logic will be same just the syntax will change.
+
+ # Babel:  Babel is a JS compiler 
+ -->babel converts jsx into react elements then react elements are converted into html css and js
+
+                       JSX-----> REACT--------->HTML,CSS,JS(which browser understands)
+
+--> JSX prevents crosssite Scripting attacks (it sanitizes data from api) by automatically escaping any user-generated content before rendering it in the browser
+
+--> JSX is extention to javascript language  *************** It's like HTML but not HTML. *******************

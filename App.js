@@ -1,4 +1,6 @@
 // creted an element using react
+import React from "react";
+import ReactDOM from "react-dom";
 
 const heading = React.createElement("h1", { id: "parent" }, [
   "I am Parent",
